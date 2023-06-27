@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: CGsolver
+Version: 0.0.1
+Summary: A project for cg in python coupled with matlab and c++
+Author: David Niemelä
+Author-email: david.niemela@it.uu.se
+Requires-Python: >=3.7
+Provides-Extra: test

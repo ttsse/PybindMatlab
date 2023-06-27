@@ -1,0 +1,8 @@
+setup.py
+src/CGsolver/__init__.py
+src/CGsolver.egg-info/PKG-INFO
+src/CGsolver.egg-info/SOURCES.txt
+src/CGsolver.egg-info/dependency_links.txt
+src/CGsolver.egg-info/not-zip-safe
+src/CGsolver.egg-info/requires.txt
+src/CGsolver.egg-info/top_level.txt

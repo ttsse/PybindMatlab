@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "iterativelinearsolvers": "cpp",
+        "sparse": "cpp"
+    }
+}

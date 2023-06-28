@@ -15,8 +15,8 @@ typedef Eigen::Ref<SpMat> RefMatrix;
 //typedef Eigen::UpLoType UpLo;
 typedef Eigen::ConjugateGradient<SpMat, 1> ConjugateGradient; 
 
-VectorXd cg(RefMatrix& A, RefVector& b){
-    Eigen::ConjugateGradient<RefMatrix> cg;
+VectorXd cg(SpMat& A, RefVector& b){
+    Eigen::ConjugateGradient<SpMat> cg;
     cg.compute(A);
     return cg.solve(b);
 }

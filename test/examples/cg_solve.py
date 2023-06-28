@@ -1,16 +1,17 @@
 #from eigen_cg import ConjugateGradient as CG
+import sys, getopt
 import eigen_cg as eigen
 import numpy as np
 import scipy as sp
 
-def main():
+
+def main(argv):
     
-    A = np.asarray([[4, 0, 0, 0],
-              [0, 5, 0, 0],
-              [0, 0, 3, 0],
-              [0, 0, 0, 2]])
-    b = np.asarray([-1,-0.5,-1,2])
-    P = sp.sparse.csc_matrix(A)
+    for opt, arg in opts:
+        if opt == '-M'
+            A = arg
+        elif opt == '-b'
+            b = arg
     #cg = eigen.ConjugateGradient(A)
     #a = cg.solve(b)
     cg = eigen.cg(A,b)
@@ -19,4 +20,4 @@ def main():
     print(d)
  
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1:])

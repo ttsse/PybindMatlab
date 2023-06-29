@@ -2,6 +2,7 @@
 #include <pybind11/numpy.h>
 
 #include <eigen3/Eigen/IterativeLinearSolvers>
+#include <eigen3/Eigen/SparseCholesky>
 #include <iostream>
 #include <pybind11/eigen.h>
 namespace py = pybind11;
@@ -13,12 +14,12 @@ typedef Eigen::IncompleteCholesky<double> Ichol;
 typedef Eigen::Ref<VectorXd> RefVector;
 typedef Eigen::Ref<SpMat> RefMatrix;
 //typedef Eigen::UpLoType UpLo;
-typedef Eigen::ConjugateGradient<SpMat, 1> ConjugateGradient; 
+typedef Eigen::ConjugateGradient<SpMat, 1, Eigen::SimplicialCholesky< SpMat, 1 >> ConjugateGradient; 
 
 VectorXd cg(SpMat& A, RefVector& b){
     Eigen::ConjugateGradient<SpMat> cg;
-    cg.setTolerance(10^-10);
-    cg.setMatIterations(100);
+    cg.setTolerance(1e-15);
+    cg.setMaxIterations(10000);
     cg.compute(A);
     return cg.solve(b);
 }

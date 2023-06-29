@@ -1,8 +1,9 @@
-A = delsq(numgrid('S',102));
+A = delsq(numgrid('S',800));
 b = ones(size(A,1),1);
-tic;
 L = ichol(A);
-matlab_x = pcg(A,b,10^-8, 100, L,L');
+
+tic;
+matlab_x = pcg(A,b,10^-15, 1000, L ,L');
 matlabtime = toc;
 
 tic;
@@ -14,6 +15,13 @@ python_x = pyrunfile("test.py", "cg", A = pyA, b = py.numpy.array(b));
 python_x_as_matlab = double(python_x)';
 pythontime = toc;
 
-result = norm(python_x_as_matlab - matlab_x)
+tic;
+trueResult = A\b;
+backslashtime= toc;
+matlabError = norm(trueResult-matlab_x);
+pythonError = norm(trueResult-python_x_as_matlab);
+matlabError
+pythonError
 matlabtime
 pythontime
+backslashtime

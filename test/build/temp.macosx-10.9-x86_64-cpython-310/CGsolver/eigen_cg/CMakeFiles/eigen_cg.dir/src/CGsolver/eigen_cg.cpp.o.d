@@ -1072,6 +1072,9 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/list \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/SparseCholesky \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky.h \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/test/lib/pybind11/include/pybind11/eigen.h \
   /Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/test/lib/pybind11/include/pybind11/eigen/matrix.h \

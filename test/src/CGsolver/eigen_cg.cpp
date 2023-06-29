@@ -17,6 +17,8 @@ typedef Eigen::ConjugateGradient<SpMat, 1> ConjugateGradient;
 
 VectorXd cg(SpMat& A, RefVector& b){
     Eigen::ConjugateGradient<SpMat> cg;
+    cg.setTolerance(10^-10);
+    cg.setMatIterations(100);
     cg.compute(A);
     return cg.solve(b);
 }

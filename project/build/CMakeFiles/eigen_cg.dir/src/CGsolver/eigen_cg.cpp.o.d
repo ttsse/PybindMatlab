@@ -19,8 +19,8 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_symbol_aliasing.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_posix_availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
@@ -31,11 +31,11 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/_types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_va_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/types.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int8_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int16_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int32_t.h \
@@ -68,11 +68,11 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/signal.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/_mcontext.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/_mcontext.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_mcontext.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/machine/_structs.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/i386/_structs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/arm/_structs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_sigaltstack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ucontext.h \
@@ -90,10 +90,11 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_uintmax_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_timeval.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/endian.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/i386/endian.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/_OSByteOrder.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/i386/_OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/arm/OSByteOrder.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/alloca.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rune_t.h \
@@ -892,15 +893,8 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/util/DisableStupidWarnings.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/util/Macros.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/mmintrin.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/emmintrin.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/xmmintrin.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/mm_malloc.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/pmmintrin.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/tmmintrin.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/smmintrin.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/popcntintrin.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/crc32intrin.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_neon.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/arm_fp16.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/util/MKL_support.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/util/Constants.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/util/Meta.h \
@@ -919,10 +913,10 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/Default/BFloat16.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h \
-  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h \
-  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h \
-  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h \
-  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/NEON/TypeCasting.h \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/NEON/MathFunctions.h \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/NEON/Complex.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctions.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h \
@@ -1012,6 +1006,7 @@ CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/BandMatrix.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/CoreIterators.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h \
+  /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/arch/NEON/GeneralBlockPanelKernel.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/BooleanRedux.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/Select.h \
   /Library/Developer/CommandLineTools/usr/include/eigen3/Eigen/src/Core/VectorwiseOp.h \

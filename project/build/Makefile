@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg"
+CMAKE_BINARY_DIR = "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/lib/pybind11//CMakeFiles/progress.marks"
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build//CMakeFiles/progress.marks"
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/clean
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
 # The main clean target
@@ -103,18 +103,55 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/preinstall
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lib/pybind11/preinstall
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named eigen_cg
+
+# Build rule for target.
+eigen_cg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 eigen_cg
+.PHONY : eigen_cg
+
+# fast build rule for target.
+eigen_cg/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigen_cg.dir/build.make CMakeFiles/eigen_cg.dir/build
+.PHONY : eigen_cg/fast
+
+src/CGsolver/eigen_cg.o: src/CGsolver/eigen_cg.cpp.o
+.PHONY : src/CGsolver/eigen_cg.o
+
+# target to build an object file
+src/CGsolver/eigen_cg.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigen_cg.dir/build.make CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o
+.PHONY : src/CGsolver/eigen_cg.cpp.o
+
+src/CGsolver/eigen_cg.i: src/CGsolver/eigen_cg.cpp.i
+.PHONY : src/CGsolver/eigen_cg.i
+
+# target to preprocess a source file
+src/CGsolver/eigen_cg.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigen_cg.dir/build.make CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.i
+.PHONY : src/CGsolver/eigen_cg.cpp.i
+
+src/CGsolver/eigen_cg.s: src/CGsolver/eigen_cg.cpp.s
+.PHONY : src/CGsolver/eigen_cg.s
+
+# target to generate assembly for a file
+src/CGsolver/eigen_cg.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/eigen_cg.dir/build.make CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.s
+.PHONY : src/CGsolver/eigen_cg.cpp.s
 
 # Help Target
 help:
@@ -124,6 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... eigen_cg"
+	@echo "... src/CGsolver/eigen_cg.o"
+	@echo "... src/CGsolver/eigen_cg.i"
+	@echo "... src/CGsolver/eigen_cg.s"
 .PHONY : help
 
 
@@ -135,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

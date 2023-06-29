@@ -1,0 +1,5 @@
+/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles/eigen_cg.dir
+/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles/edit_cache.dir
+/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles/rebuild_cache.dir
+/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/lib/pybind11/CMakeFiles/edit_cache.dir
+/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/lib/pybind11/CMakeFiles/rebuild_cache.dir

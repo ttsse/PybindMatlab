@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg"
+CMAKE_BINARY_DIR = "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/eigen_cg.dir/depend.make
@@ -72,7 +72,7 @@ include CMakeFiles/eigen_cg.dir/flags.make
 CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: CMakeFiles/eigen_cg.dir/flags.make
 CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: /Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/project/src/CGsolver/eigen_cg.cpp
 CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o: CMakeFiles/eigen_cg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o -MF CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o.d -o CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/src/CGsolver/eigen_cg.cpp"
 
 CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.i: cmake_force
@@ -90,15 +90,15 @@ eigen_cg_OBJECTS = \
 # External object files for target eigen_cg
 eigen_cg_EXTERNAL_OBJECTS =
 
-/Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/project/build/lib.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg.cpython-310-darwin.so: CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o
-/Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/project/build/lib.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg.cpython-310-darwin.so: CMakeFiles/eigen_cg.dir/build.make
-/Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/project/build/lib.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg.cpython-310-darwin.so: CMakeFiles/eigen_cg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module \"/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/lib.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg.cpython-310-darwin.so\""
+eigen_cg.cpython-310-darwin.so: CMakeFiles/eigen_cg.dir/src/CGsolver/eigen_cg.cpp.o
+eigen_cg.cpython-310-darwin.so: CMakeFiles/eigen_cg.dir/build.make
+eigen_cg.cpython-310-darwin.so: CMakeFiles/eigen_cg.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module eigen_cg.cpython-310-darwin.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/eigen_cg.dir/link.txt --verbose=$(VERBOSE)
-	/Library/Developer/CommandLineTools/usr/bin/strip -x /Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/project/build/lib.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg.cpython-310-darwin.so
+	/Library/Developer/CommandLineTools/usr/bin/strip -x /Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/project/build/eigen_cg.cpython-310-darwin.so
 
 # Rule to build all files generated by this target.
-CMakeFiles/eigen_cg.dir/build: /Users/davni457/Documents/PHD/Courses/Techniques\ and\ Technologies\ for\ Scientific\ Software\ Engineering/Project/TTSSE_Project/project/build/lib.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg.cpython-310-darwin.so
+CMakeFiles/eigen_cg.dir/build: eigen_cg.cpython-310-darwin.so
 .PHONY : CMakeFiles/eigen_cg.dir/build
 
 CMakeFiles/eigen_cg.dir/clean:
@@ -106,6 +106,6 @@ CMakeFiles/eigen_cg.dir/clean:
 .PHONY : CMakeFiles/eigen_cg.dir/clean
 
 CMakeFiles/eigen_cg.dir/depend:
-	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/eigen_cg.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build" "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/CMakeFiles/eigen_cg.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/eigen_cg.dir/depend
 

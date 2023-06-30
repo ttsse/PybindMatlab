@@ -30,5 +30,5 @@ PYBIND11_MODULE(eigen_cg, m)
     py::class_<ConjugateGradient>(m, "ConjugateGradient")
         .def(py::init());
 
-    m.def("cg", &cg);
+    m.def("cg", &cg,py::return_value_policy::reference);
 }

@@ -6,7 +6,7 @@ CXX_DEFINES = -Deigen_cg_EXPORTS
 
 CXX_INCLUDES = -isystem "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/lib/pybind11/include" -isystem /Users/davni457/anaconda3/envs/ttsse/include/python3.10
 
-CXX_FLAGSx86_64 = -O3 -DNDEBUG -std=gnu++11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fvisibility=hidden -flto
+CXX_FLAGSx86_64 = -O3 -DNDEBUG -std=gnu++11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fvisibility=hidden
 
-CXX_FLAGS = -O3 -DNDEBUG -std=gnu++11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fvisibility=hidden -flto
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++11 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fvisibility=hidden
 

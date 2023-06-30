@@ -16,12 +16,13 @@ typedef Eigen::Ref<SpMat> RefMatrix;
 //typedef Eigen::UpLoType UpLo;
 typedef Eigen::ConjugateGradient<SpMat, 1, Eigen::SimplicialCholesky< SpMat, 1 >> ConjugateGradient; 
 
-VectorXd cg(SpMat& A, RefVector& b){
+VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
     Eigen::ConjugateGradient<SpMat> cg;
+
     cg.setTolerance(1e-15);
     cg.setMaxIterations(10000);
     cg.compute(A);
-    return cg.solve(b);
+    return cg.solveWithGuess(b,x0);
 }
 
 PYBIND11_MODULE(eigen_cg, m) 

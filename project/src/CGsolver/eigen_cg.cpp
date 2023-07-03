@@ -18,14 +18,10 @@ typedef Eigen::Ref<SpMat> RefMatrix;
 VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
     Eigen::ConjugateGradient<SpMat, 1, Eigen::SimplicialCholesky<SpMat, 1>> cg;
     VectorXd result;
-    std::cout<<"line 21"<<std::endl;
-    cg.setTolerance(1e-15);
-    std::cout<<"line 23"<<std::endl;
+    cg.setTolerance(1e-7);
     cg.setMaxIterations(10000);
-    std::cout<<"line 25"<<std::endl;
     cg.compute(A);
-    std::cout<<"line 27"<<std::endl;
-    result = cg.solveWithGuess(b,x0);
+    result = cg.solveWithGuess(b, x0);
     return result;
 }
 

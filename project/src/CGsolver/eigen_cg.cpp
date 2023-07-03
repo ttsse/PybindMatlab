@@ -14,21 +14,22 @@ typedef Eigen::IncompleteCholesky<double> Ichol;
 typedef Eigen::Ref<VectorXd> RefVector;
 typedef Eigen::Ref<SpMat> RefMatrix;
 //typedef Eigen::UpLoType UpLo;
-typedef Eigen::ConjugateGradient<SpMat, 1, Eigen::SimplicialCholesky< SpMat, 1 >> ConjugateGradient; 
 
 VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
-    Eigen::ConjugateGradient<SpMat> cg;
-
+    Eigen::ConjugateGradient<SpMat, 1, Eigen::SimplicialCholesky<SpMat, 1>> cg;
+    VectorXd result;
+    std::cout<<"line 21"<<std::endl;
     cg.setTolerance(1e-15);
+    std::cout<<"line 23"<<std::endl;
     cg.setMaxIterations(10000);
+    std::cout<<"line 25"<<std::endl;
     cg.compute(A);
-    return cg.solveWithGuess(b,x0);
+    std::cout<<"line 27"<<std::endl;
+    result = cg.solveWithGuess(b,x0);
+    return result;
 }
 
 PYBIND11_MODULE(eigen_cg, m) 
 {
-    py::class_<ConjugateGradient>(m, "ConjugateGradient")
-        .def(py::init());
-
-    m.def("cg", &cg,py::return_value_policy::reference);
+    m.def("cg", &cg, py::return_value_policy::reference);
 }

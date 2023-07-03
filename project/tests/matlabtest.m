@@ -11,7 +11,6 @@ a = py.numpy.array(b);
 x0 = py.numpy.array(x0);
 
 for i = 1:5
-
     python_x = py.eigen_cg.cg(pyA, a, x0);
     python_x_as_matlab = double(python_x)';
     b(end) = 2;

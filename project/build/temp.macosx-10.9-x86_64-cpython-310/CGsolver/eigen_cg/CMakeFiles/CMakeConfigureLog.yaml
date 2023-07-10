@@ -4,214 +4,179 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Darwin - 22.5.0 - x86_64
   -
     kind: "message-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      1
-      ld: library not found for -lSystem
-      clang: error: linker command failed with exit code 1 (use -v to see invocation)
-      
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
-      Build flags: 
-      Id flags: -c 
-      
-      The output was:
-      0
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
-      
-      The C compiler identification is AppleClang, found in:
-        /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
-      Build flags: 
+      Compiler: /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-isystem;/Users/davni457/anaconda3/envs/ttsse/include
       Id flags:  
       
       The output was:
-      1
-      ld: library not found for -lc++
-      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      0
       
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is Clang, found in:
+        /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/3.26.4/CompilerIdC/a.out
       
   -
     kind: "message-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
-      Build flags: 
-      Id flags: -c 
+      Compiler: /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ 
+      Build flags: -march=core2;-mtune=haswell;-mssse3;-ftree-vectorize;-fPIC;-fPIE;-fstack-protector-strong;-O2;-pipe;-stdlib=libc++;-fvisibility-inlines-hidden;-fmessage-length=0;-isystem;/Users/davni457/anaconda3/envs/ttsse/include
+      Id flags:  
       
       The output was:
       0
       
       
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
-      The CXX compiler identification is AppleClang, found in:
-        /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      The CXX compiler identification is Clang, found in:
+        /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/3.26.4/CompilerIdCXX/a.out
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH"
-      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH"
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG"
     cmakeVariables:
-      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include"
       CMAKE_C_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG
         
-        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5675/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b5675.dir/build.make CMakeFiles/cmTC_b5675.dir/build
-        Building C object CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o
-        /Library/Developer/CommandLineTools/usr/bin/cc   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c
-        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
-        Target: x86_64-apple-darwin22.5.0
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cbdee/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cbdee.dir/build.make CMakeFiles/cmTC_cbdee.dir/build
+        Building C object CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -c /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c
-        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.5.0
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+        clang-14: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG" -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -x c /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
-         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
-         /Library/Developer/CommandLineTools/usr/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+         /Users/davni457/anaconda3/envs/ttsse/include
+         /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_b5675
-        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5675.dir/link.txt --verbose=1
-        /Library/Developer/CommandLineTools/usr/bin/cc  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -o cmTC_b5675 
-        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
-        Target: x86_64-apple-darwin22.5.0
+        Linking C executable cmTC_cbdee
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbdee.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -v -Wl,-v CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -o cmTC_cbdee 
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_b5675 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld  PROJECT:ld64-857.1
-        BUILD 23:13:24 May  7 2023
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+         "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_cbdee -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib -v CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-609
+        BUILD 17:11:05 Mar 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
         Library search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        	/Users/davni457/anaconda3/envs/ttsse/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         Framework search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
-          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
-          add: [/Library/Developer/CommandLineTools/usr/include]
+          add: [/Users/davni457/anaconda3/envs/ttsse/include]
+          add: [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         end of search list found
-        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
-        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
-        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
-        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+        collapse include dir [/Users/davni457/anaconda3/envs/ttsse/include] ==> [/Users/davni457/anaconda3/envs/ttsse/include]
+        collapse include dir [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include] ==> [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        implicit include dirs: [/Users/davni457/anaconda3/envs/ttsse/include;/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
-        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH]
+        link line regex: [^( *|.*[/\\])(x86_64-apple-darwin13\\.4\\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG]
         ignore line: []
-        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5675/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b5675.dir/build.make CMakeFiles/cmTC_b5675.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c]
-        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
-        ignore line: [Target: x86_64-apple-darwin22.5.0]
+        ignore line: [Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cbdee/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cbdee.dir/build.make CMakeFiles/cmTC_cbdee.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -c /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-1z0pnH" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -no-opaque-pointers -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCCompilerABI.c]
-        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.5.0]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        ignore line: [clang-14: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-7H6bCG" -ferror-limit 19 -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -x c /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/include]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_b5675]
-        ignore line: [/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5675.dir/link.txt --verbose=1]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -o cmTC_b5675 ]
-        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
-        ignore line: [Target: x86_64-apple-darwin22.5.0]
+        ignore line: [Linking C executable cmTC_cbdee]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbdee.dir/link.txt --verbose=1]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -v -Wl -v CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -o cmTC_cbdee ]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_b5675 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
-          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        link line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_cbdee -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib -v CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
-          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib] ==> skip value of -lto_library
           arg [-dynamic] ==> ignore
           arg [-arch] ==> ignore
           arg [x86_64] ==> ignore
@@ -219,154 +184,166 @@ events:
           arg [macos] ==> ignore
           arg [13.0.0] ==> ignore
           arg [13.3] ==> ignore
+          arg [-pie] ==> ignore
           arg [-syslibroot] ==> ignore
-          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b5675] ==> ignore
+          arg [cmTC_cbdee] ==> ignore
+          arg [-L/Users/davni457/anaconda3/envs/ttsse/lib] ==> dir [/Users/davni457/anaconda3/envs/ttsse/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_b5675.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_cbdee.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
-          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
-        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
-        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
         remove lib [System]
-        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
-        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
-        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        remove lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         implicit libs: []
         implicit objs: []
-        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
-        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        implicit dirs: [/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
       
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB"
-      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB"
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc
         
-        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1d564/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d564.dir/build.make CMakeFiles/cmTC_1d564.dir/build
-        Building CXX object CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o
-        /Library/Developer/CommandLineTools/usr/bin/c++   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
-        Target: x86_64-apple-darwin22.5.0
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e4dcf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e4dcf.dir/build.make CMakeFiles/cmTC_e4dcf.dir/build
+        Building CXX object CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -c /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-        clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.5.0
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"
-        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+        clang-14: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc" -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
         #include "..." search starts here:
         #include <...> search starts here:
-         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1
-         /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include
-         /Library/Developer/CommandLineTools/usr/include
-         /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)
+         /Users/davni457/anaconda3/envs/ttsse/include
+         /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1
+         /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_1d564
-        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d564.dir/link.txt --verbose=1
-        /Library/Developer/CommandLineTools/usr/bin/c++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1d564 
-        Apple clang version 14.0.3 (clang-1403.0.22.14.1)
-        Target: x86_64-apple-darwin22.5.0
+        Linking CXX executable cmTC_e4dcf
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4dcf.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -v -Wl,-v CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e4dcf 
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
         Thread model: posix
-        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_1d564 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a
-        @(#)PROGRAM:ld  PROJECT:ld64-857.1
-        BUILD 23:13:24 May  7 2023
-        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+         "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_e4dcf -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib -v CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-609
+        BUILD 17:11:05 Mar 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
         Library search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib
+        	/Users/davni457/anaconda3/envs/ttsse/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
         Framework search paths:
-        	/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
-          add: [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
-          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
-          add: [/Library/Developer/CommandLineTools/usr/include]
+          add: [/Users/davni457/anaconda3/envs/ttsse/include]
+          add: [/Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1]
+          add: [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
         end of search list found
-        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
-        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
-        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
-        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
-        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+        collapse include dir [/Users/davni457/anaconda3/envs/ttsse/include] ==> [/Users/davni457/anaconda3/envs/ttsse/include]
+        collapse include dir [/Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1] ==> [/Users/davni457/anaconda3/envs/ttsse/include/c++/v1]
+        collapse include dir [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include] ==> [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        implicit include dirs: [/Users/davni457/anaconda3/envs/ttsse/include;/Users/davni457/anaconda3/envs/ttsse/include/c++/v1;/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
       
       
   -
     kind: "message-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
-        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB]
+        link line regex: [^( *|.*[/\\])(x86_64-apple-darwin13\\.4\\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc]
         ignore line: []
-        ignore line: [Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1d564/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1d564.dir/build.make CMakeFiles/cmTC_1d564.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
-        ignore line: [Target: x86_64-apple-darwin22.5.0]
+        ignore line: [Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e4dcf/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e4dcf.dir/build.make CMakeFiles/cmTC_e4dcf.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -c /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 857.1 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB" -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3 -dependency-file CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -stdlib=libc++ -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-dR1tHB" -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -no-opaque-pointers -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-        ignore line: [clang -cc1 version 14.0.3 (clang-1403.0.22.14.1) default target x86_64-apple-darwin22.5.0]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/local/include"]
-        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Library/Frameworks"]
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        ignore line: [clang-14: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-PxvxSc" -ferror-limit 19 -fvisibility-inlines-hidden -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
-        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/include]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_1d564]
-        ignore line: [/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d564.dir/link.txt --verbose=1]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1d564 ]
-        ignore line: [Apple clang version 14.0.3 (clang-1403.0.22.14.1)]
-        ignore line: [Target: x86_64-apple-darwin22.5.0]
+        ignore line: [Linking CXX executable cmTC_e4dcf]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4dcf.dir/link.txt --verbose=1]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -v -Wl -v CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e4dcf ]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
         ignore line: [Thread model: posix]
-        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o cmTC_1d564 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
-          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        link line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_e4dcf -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib -v CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
-          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib] ==> skip value of -lto_library
           arg [-dynamic] ==> ignore
           arg [-arch] ==> ignore
           arg [x86_64] ==> ignore
@@ -374,35 +351,44 @@ events:
           arg [macos] ==> ignore
           arg [13.0.0] ==> ignore
           arg [13.3] ==> ignore
+          arg [-pie] ==> ignore
           arg [-syslibroot] ==> ignore
-          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_1d564] ==> ignore
+          arg [cmTC_e4dcf] ==> ignore
+          arg [-L/Users/davni457/anaconda3/envs/ttsse/lib] ==> dir [/Users/davni457/anaconda3/envs/ttsse/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_1d564.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_e4dcf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
-          arg [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
-        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
-        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/]
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
         remove lib [System]
-        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/lib/darwin/libclang_rt.osx.a]
-        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
-        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        remove lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
         implicit libs: [c++]
         implicit objs: []
-        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib]
-        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks]
+        implicit dirs: [/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
       
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
       - "lib/pybind11/tools/pybind11Common.cmake:268 (check_cxx_compiler_flag)"
       - "lib/pybind11/tools/pybind11Common.cmake:310 (_pybind11_return_if_cxx_and_linker_flags_work)"
       - "lib/pybind11/tools/pybind11Common.cmake:377 (_pybind11_generate_lto)"
@@ -410,36 +396,36 @@ events:
     checks:
       - "Performing Test HAS_FLTO"
     directories:
-      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-RiUoiD"
-      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-RiUoiD"
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-kQXr6a"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-kQXr6a"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
       CMAKE_MODULE_PATH: ""
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
     buildResult:
       variable: "HAS_FLTO"
       cached: true
       stdout: |
-        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-RiUoiD
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-kQXr6a
         
-        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1ef56/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1ef56.dir/build.make CMakeFiles/cmTC_1ef56.dir/build
-        Building CXX object CMakeFiles/cmTC_1ef56.dir/src.cxx.o
-        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAS_FLTO  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -flto -MD -MT CMakeFiles/cmTC_1ef56.dir/src.cxx.o -MF CMakeFiles/cmTC_1ef56.dir/src.cxx.o.d -o CMakeFiles/cmTC_1ef56.dir/src.cxx.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-RiUoiD/src.cxx"
-        Linking CXX executable cmTC_1ef56
-        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ef56.dir/link.txt --verbose=1
-        /Library/Developer/CommandLineTools/usr/bin/c++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1ef56.dir/src.cxx.o -o cmTC_1ef56  -flto 
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37f35/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_37f35.dir/build.make CMakeFiles/cmTC_37f35.dir/build
+        Building CXX object CMakeFiles/cmTC_37f35.dir/src.cxx.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -DHAS_FLTO  -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -flto -MD -MT CMakeFiles/cmTC_37f35.dir/src.cxx.o -MF CMakeFiles/cmTC_37f35.dir/src.cxx.o.d -o CMakeFiles/cmTC_37f35.dir/src.cxx.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-kQXr6a/src.cxx"
+        Linking CXX executable cmTC_37f35
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f35.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_37f35.dir/src.cxx.o -o cmTC_37f35  -flto 
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
-      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
       - "lib/pybind11/tools/pybind11Common.cmake:268 (check_cxx_compiler_flag)"
       - "lib/pybind11/tools/pybind11Common.cmake:304 (_pybind11_return_if_cxx_and_linker_flags_work)"
       - "lib/pybind11/tools/pybind11Common.cmake:380 (_pybind11_generate_lto)"
@@ -447,28 +433,387 @@ events:
     checks:
       - "Performing Test HAS_FLTO_THIN"
     directories:
-      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-73uUSa"
-      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-73uUSa"
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-jhbUyR"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-jhbUyR"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include"
       CMAKE_CXX_FLAGS_DEBUG: "-g"
-      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
       CMAKE_MODULE_PATH: ""
       CMAKE_OSX_ARCHITECTURES: ""
       CMAKE_OSX_DEPLOYMENT_TARGET: ""
-      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
     buildResult:
       variable: "HAS_FLTO_THIN"
       cached: true
       stdout: |
-        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-73uUSa
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-jhbUyR
         
-        Run Build Command(s):/opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f195/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5f195.dir/build.make CMakeFiles/cmTC_5f195.dir/build
-        Building CXX object CMakeFiles/cmTC_5f195.dir/src.cxx.o
-        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAS_FLTO_THIN  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -flto=thin -MD -MT CMakeFiles/cmTC_5f195.dir/src.cxx.o -MF CMakeFiles/cmTC_5f195.dir/src.cxx.o.d -o CMakeFiles/cmTC_5f195.dir/src.cxx.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-73uUSa/src.cxx"
-        Linking CXX executable cmTC_5f195
-        /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f195.dir/link.txt --verbose=1
-        /Library/Developer/CommandLineTools/usr/bin/c++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5f195.dir/src.cxx.o -o cmTC_5f195  -flto=thin 
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a8961/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a8961.dir/build.make CMakeFiles/cmTC_a8961.dir/build
+        Building CXX object CMakeFiles/cmTC_a8961.dir/src.cxx.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -DHAS_FLTO_THIN  -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk   -flto=thin -MD -MT CMakeFiles/cmTC_a8961.dir/src.cxx.o -MF CMakeFiles/cmTC_a8961.dir/src.cxx.o.d -o CMakeFiles/cmTC_a8961.dir/src.cxx.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-jhbUyR/src.cxx"
+        Linking CXX executable cmTC_a8961
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8961.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_a8961.dir/src.cxx.o -o cmTC_a8961  -flto=thin 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N
+        
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec9d7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ec9d7.dir/build.make CMakeFiles/cmTC_ec9d7.dir/build
+        Building C object CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N/OpenMPTryFlag.c"
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+         (in-process)
+         "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N" -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -x c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N/OpenMPTryFlag.c"
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/davni457/anaconda3/envs/ttsse/include
+         /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_ec9d7
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec9d7.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -o cmTC_ec9d7  -v -Wl,-v 
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+         "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_ec9d7 -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -v -lomp -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-609
+        BUILD 17:11:05 Mar 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/Users/davni457/anaconda3/envs/ttsse/lib
+        	/Users/davni457/anaconda3/envs/ttsse/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:262 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:17 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(x86_64-apple-darwin13\\.4\\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ec9d7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ec9d7.dir/build.make CMakeFiles/cmTC_ec9d7.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N/OpenMPTryFlag.c"]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N" -ferror-limit 19 -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -x c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-DtTC2N/OpenMPTryFlag.c"]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/include]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_ec9d7]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec9d7.dir/link.txt --verbose=1]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -o cmTC_ec9d7  -v -Wl -v ]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        link line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_ec9d7 -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o -v -lomp -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_ec9d7] ==> ignore
+          arg [-L/Users/davni457/anaconda3/envs/ttsse/lib] ==> dir [/Users/davni457/anaconda3/envs/ttsse/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib] ==> ignore
+          arg [CMakeFiles/cmTC_ec9d7.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [-lomp] ==> lib [omp]
+          arg [-rpath] ==> ignore
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib] ==> ignore
+          arg [-L/Users/davni457/anaconda3/envs/ttsse/lib] ==> dir [/Users/davni457/anaconda3/envs/ttsse/lib]
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Users/davni457/anaconda3/envs/ttsse/lib;/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [omp]
+        implicit objs: []
+        implicit dirs: [/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmplibomp"
+      cached: true
+      stdout: |
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1
+        
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8784/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d8784.dir/build.make CMakeFiles/cmTC_d8784.dir/build
+        Building CXX object CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1/OpenMPTryFlag.cpp"
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+         (in-process)
+         "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1" -ferror-limit 19 -fvisibility-inlines-hidden -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -x c++ "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1/OpenMPTryFlag.cpp"
+        clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Users/davni457/anaconda3/envs/ttsse/include
+         /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1
+         /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_d8784
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8784.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -o cmTC_d8784  -v -Wl,-v 
+        clang version 14.0.6
+        Target: x86_64-apple-darwin13.4.0
+        Thread model: posix
+        InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin
+         "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_d8784 -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -v -lomp -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -lc++ -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:ld64-609
+        BUILD 17:11:05 Mar 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+        Library search paths:
+        	/Users/davni457/anaconda3/envs/ttsse/lib
+        	/Users/davni457/anaconda3/envs/ttsse/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:262 (message)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:17 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(x86_64-apple-darwin13\\.4\\.0-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8784/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d8784.dir/build.make CMakeFiles/cmTC_d8784.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1/OpenMPTryFlag.cpp"]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/clang-14" -cc1 -triple x86_64-apple-macosx13.0.0 -Wundef-prefix=TARGET_OS_OSX -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu core2 -target-feature +ssse3 -tune-cpu haswell -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 530 -v "-fcoverage-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1" -resource-dir /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6 -dependency-file CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isystem /Users/davni457/anaconda3/envs/ttsse/include -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -stdlib=libc++ -internal-isystem /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -O2 -fdeprecated-macro "-fdebug-compilation-dir=/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1" -ferror-limit 19 -fvisibility-inlines-hidden -fopenmp -fopenmp-target-new-runtime -stack-protector 2 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -x c++ "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-rny2u1/OpenMPTryFlag.cpp"]
+        ignore line: [clang -cc1 version 14.0.6 based upon LLVM 14.0.6 default target x86_64-apple-darwin22.5.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/include]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/bin/../include/c++/v1]
+        ignore line: [ /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_d8784]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8784.dir/link.txt --verbose=1]
+        ignore line: [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -v -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names -Wl -pie -Wl -headerpad_max_install_names -Wl -dead_strip_dylibs -Wl -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -o cmTC_d8784  -v -Wl -v ]
+        ignore line: [clang version 14.0.6]
+        ignore line: [Target: x86_64-apple-darwin13.4.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Users/davni457/anaconda3/envs/ttsse/bin]
+        link line: [ "/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld" -demangle -lto_library /Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib -dynamic -arch x86_64 -platform_version macos 13.0.0 13.3 -pie -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_d8784 -L/Users/davni457/anaconda3/envs/ttsse/lib -search_paths_first -headerpad_max_install_names -pie -headerpad_max_install_names -dead_strip_dylibs -rpath /Users/davni457/anaconda3/envs/ttsse/lib CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o -v -lomp -rpath /Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib -lc++ -lSystem /Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+          arg [/Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/libLTO.14.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.0.0] ==> ignore
+          arg [13.3] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d8784] ==> ignore
+          arg [-L/Users/davni457/anaconda3/envs/ttsse/lib] ==> dir [/Users/davni457/anaconda3/envs/ttsse/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-dead_strip_dylibs] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib] ==> ignore
+          arg [CMakeFiles/cmTC_d8784.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [-lomp] ==> lib [omp]
+          arg [-rpath] ==> ignore
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib] ==> ignore
+          arg [-L/Users/davni457/anaconda3/envs/ttsse/lib] ==> dir [/Users/davni457/anaconda3/envs/ttsse/lib]
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a] ==> lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/Users/davni457/anaconda3/envs/ttsse/lib;/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        remove lib [/Users/davni457/anaconda3/envs/ttsse/lib/clang/14.0.6/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Users/davni457/anaconda3/envs/ttsse/lib] ==> [/Users/davni457/anaconda3/envs/ttsse/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [omp;c++]
+        implicit objs: []
+        implicit dirs: [/Users/davni457/anaconda3/envs/ttsse/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-oJqibn"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-oJqibn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-oJqibn
+        
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_46a62/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_46a62.dir/build.make CMakeFiles/cmTC_46a62.dir/build
+        Building C object CMakeFiles/cmTC_46a62.dir/OpenMPCheckVersion.c.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_46a62.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_46a62.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_46a62.dir/OpenMPCheckVersion.c.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-oJqibn/OpenMPCheckVersion.c"
+        Linking C executable cmTC_46a62
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46a62.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_46a62.dir/OpenMPCheckVersion.c.o -o cmTC_46a62 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/Users/davni457/anaconda3/envs/ttsse/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:17 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-cjTWTz"
+      binary: "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-cjTWTz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-cjTWTz
+        
+        Run Build Command(s):/Users/davni457/anaconda3/envs/ttsse/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ac791/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ac791.dir/build.make CMakeFiles/cmTC_ac791.dir/build
+        Building CXX object CMakeFiles/cmTC_ac791.dir/OpenMPCheckVersion.cpp.o
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++   -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -MD -MT CMakeFiles/cmTC_ac791.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_ac791.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_ac791.dir/OpenMPCheckVersion.cpp.o -c "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/CMakeScratch/TryCompile-cjTWTz/OpenMPCheckVersion.cpp"
+        Linking CXX executable cmTC_ac791
+        /Users/davni457/anaconda3/envs/ttsse/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac791.dir/link.txt --verbose=1
+        /Users/davni457/anaconda3/envs/ttsse/bin/x86_64-apple-darwin13.4.0-clang++ -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -fopenmp=libomp -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Wl,-pie -Wl,-headerpad_max_install_names -Wl,-dead_strip_dylibs -Wl,-rpath,/Users/davni457/anaconda3/envs/ttsse/lib -L/Users/davni457/anaconda3/envs/ttsse/lib  CMakeFiles/cmTC_ac791.dir/OpenMPCheckVersion.cpp.o -o cmTC_ac791 
         
       exitCode: 0
 ...

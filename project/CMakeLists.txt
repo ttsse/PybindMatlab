@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.4...3.18)
+cmake_minimum_required(VERSION 3.12...3.18)
 project(eigen_cg)
+ 
+
 
 add_subdirectory(lib/pybind11)
 pybind11_add_module(eigen_cg src/CGsolver/eigen_cg.cpp)
@@ -11,3 +13,9 @@ link_directories(${Eigen_INCLUDE_DIRS})
 target_link_libraries(${PROJECT_NAME}
    ${Eigen_LIBRARIES}
    )
+
+   find_package(OpenMP REQUIRED) # you can change the excutable name
+
+if(OpenMP_CXX_FOUND)
+    target_link_libraries(${PROJECT_NAME} PUBLIC OpenMP::OpenMP_CXX)
+endif()

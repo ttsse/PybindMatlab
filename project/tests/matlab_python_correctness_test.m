@@ -11,5 +11,5 @@ matlab_x = pcg(A,b, 10^-15, 10000);
 matlabError = norm(trueResult - matlab_x);
 
 if (pythonError > 1e-6)
-    print("Test Failed");
+    disp("Test Failed");
 end

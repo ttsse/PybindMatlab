@@ -6,7 +6,7 @@ CXX_DEFINES = -Deigen_cg_EXPORTS
 
 CXX_INCLUDES = -isystem "/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/lib/pybind11/include" -isystem /Users/davni457/anaconda3/envs/ttsse/include/python3.10
 
-CXX_FLAGSx86_64 = -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fPIC -fvisibility=hidden -flto -fopenmp=libomp
+CXX_FLAGSx86_64 = -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fPIC -fvisibility=hidden -fopenmp=libomp
 
-CXX_FLAGS = -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fPIC -fvisibility=hidden -flto -fopenmp=libomp
+CXX_FLAGS = -march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -stdlib=libc++ -fvisibility-inlines-hidden -fmessage-length=0 -isystem /Users/davni457/anaconda3/envs/ttsse/include -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -fPIC -fvisibility=hidden -fopenmp=libomp
 

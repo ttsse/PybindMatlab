@@ -1,5 +1,5 @@
 clear all
-A = delsq(numgrid('A',600));
+A = delsq(numgrid('S',500));
 b = ones(size(A,1),1);
 [AI, AJ, AV] = find(A);
 
@@ -13,7 +13,7 @@ python_x = py.eigen_cg.cg(pyA, a, x0);
 python_x = double(python_x)';
 
 L = ichol(A);
-matlab_pcg = pcg(A, b, 10^-10, 10000, L, L');
+[matlab_pcg, ~] = pcg(A, b, 10^-10, 10000, L, L');
 matlab_x = A\b;
 
 error_py = norm(python_x - matlab_x);

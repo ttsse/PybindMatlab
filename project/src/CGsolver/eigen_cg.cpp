@@ -1,10 +1,14 @@
 #include <pybind11/pybind11.h>
 #include <pybind11/numpy.h>
+#include <pybind11/eigen.h>
 
 #include <eigen3/Eigen/IterativeLinearSolvers>
 #include <eigen3/Eigen/SparseCholesky>
 #include <iostream>
-#include <pybind11/eigen.h>
+
+#include <omp.h>
+
+
 namespace py = pybind11;
 
 typedef Eigen::SparseMatrix<double> SpMat;
@@ -21,8 +25,29 @@ void checkVectorMatrixCompatibility(SpMat& A, RefVector& b){
     }
 }
 
+void cg_timing_test(SpMat&A, RefVector& b, RefVector& x0){
+    Eigen::ConjugateGradient<SpMat, Eigen::Lower|Eigen::Upper, Eigen::SimplicialCholesky<SpMat, 1>> cg;
+    VectorXd result;
+    try{
+        checkVectorMatrixCompatibility(A, b);
+    } catch (std::invalid_argument const&e){
+        std::cout<<"rows in rhs must match cols in matrix"<<std::endl;
+    }
+    try{
+        checkVectorMatrixCompatibility(A,x0);
+    } catch (std::invalid_argument const&e){
+        std::cout<<"rows in initial guess must match cols in matrix"<<std::endl;
+    }
+    cg.setTolerance(1e-7);
+    cg.setMaxIterations(100000);
+    cg.compute(A);
+    for(int i=0; i<1000; i++){
+       result = cg.solveWithGuess(b, x0);
+    }
+}
+
 VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
-    Eigen::ConjugateGradient<SpMat, 1, Eigen::SimplicialCholesky<SpMat, 1>> cg;
+    Eigen::ConjugateGradient<SpMat, Eigen::Lower|Eigen::Upper, Eigen::SimplicialCholesky<SpMat, 1>> cg;
     VectorXd result;
     try{
         checkVectorMatrixCompatibility(A, b);
@@ -44,4 +69,5 @@ VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
 PYBIND11_MODULE(eigen_cg, m) 
 {
     m.def("cg", &cg, py::return_value_policy::reference);
+    m.def("cg_timing_test", &cg_timing_test);
 }

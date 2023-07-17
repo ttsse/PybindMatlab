@@ -1,5 +1,0 @@
-/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/eigen_cg.dir
-/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/edit_cache.dir
-/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/CMakeFiles/rebuild_cache.dir
-/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/lib/pybind11/CMakeFiles/edit_cache.dir
-/Users/davni457/Documents/PHD/Courses/Techniques and Technologies for Scientific Software Engineering/Project/TTSSE_Project/project/build/temp.macosx-10.9-x86_64-cpython-310/CGsolver/eigen_cg/lib/pybind11/CMakeFiles/rebuild_cache.dir

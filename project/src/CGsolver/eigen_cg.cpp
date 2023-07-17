@@ -25,7 +25,7 @@ void checkVectorMatrixCompatibility(SpMat& A, RefVector& b){
     }
 }
 
-void cg_timing_test(SpMat&A, RefVector& b, RefVector& x0){
+void cgTimingTest(SpMat&A, RefVector& b, RefVector& x0){
     Eigen::ConjugateGradient<SpMat, Eigen::Lower|Eigen::Upper, Eigen::SimplicialCholesky<SpMat, 1>> cg;
     VectorXd result;
     try{
@@ -69,5 +69,5 @@ VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
 PYBIND11_MODULE(eigen_cg, m) 
 {
     m.def("cg", &cg, py::return_value_policy::reference);
-    m.def("cg_timing_test", &cg_timing_test);
+    m.def("cgTimingTest", &cgTimingTest);
 }

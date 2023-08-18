@@ -66,8 +66,18 @@ VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
     return result;
 }
 
+VectorXd lu(SpMat& A, RefVector& b){
+    Eigen::SparseLU<SpMat, Eigen::COLAMDOrdering<int> > lu
+    VectorXd result;
+    lu.analyzePattern(A);
+    lu.factorize(A);
+    result = lu.solve(b);
+    return result;
+}
+
 PYBIND11_MODULE(eigen_cg, m) 
 {
     m.def("cg", &cg, py::return_value_policy::reference);
     m.def("cgTimingTest", &cgTimingTest);
+    m.def("lu", &lu)
 }

@@ -14,7 +14,7 @@ def correctnessTest():
     x0 = np.asarray([0., 0., 0., 0.])
     eigenSolve = eigen.cg(A, b, x0)
     scipySolve = sp.linalg.solve(A, b)
-    diff = eigenSolve - scipy_solve
+    diff = eigenSolve - scipySolve
     assert np.linalg.norm(diff) < 1e-10
 
 def wrongInputVector():
@@ -42,6 +42,6 @@ def wrongInputMatrix():
     x0 = np.asarray([0.,0.,0.,0.])
     eigenSolve = eigen.cg(A, b, x0)
 
-
+correctnessTest()
 
 

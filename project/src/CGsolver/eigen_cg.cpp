@@ -4,6 +4,7 @@
 
 #include <eigen3/Eigen/IterativeLinearSolvers>
 #include <eigen3/Eigen/SparseCholesky>
+#include <eigen3/Eigen/SparseLU>
 #include <iostream>
 
 #include <omp.h>
@@ -67,7 +68,7 @@ VectorXd cg(SpMat& A, RefVector& b, RefVector& x0){
 }
 
 VectorXd lu(SpMat& A, RefVector& b){
-    Eigen::SparseLU<SpMat, Eigen::COLAMDOrdering<int> > lu
+    Eigen::SparseLU<SpMat, Eigen::COLAMDOrdering<int> > lu;
     VectorXd result;
     lu.analyzePattern(A);
     lu.factorize(A);
@@ -79,5 +80,5 @@ PYBIND11_MODULE(eigen_cg, m)
 {
     m.def("cg", &cg, py::return_value_policy::reference);
     m.def("cgTimingTest", &cgTimingTest);
-    m.def("lu", &lu)
+    m.def("lu", &lu);
 }

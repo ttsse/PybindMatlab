@@ -81,6 +81,7 @@
         "numeric": "cpp",
         "random": "cpp",
         "algorithm": "cpp",
-        "sparsecholesky": "cpp"
+        "sparsecholesky": "cpp",
+        "iterativelinearsolvers": "cpp"
     }
 }
